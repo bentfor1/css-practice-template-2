@@ -1,0 +1,41 @@
+СЕЛЕКТОРИ - ЧАСТИНА 2
+
+{{!-- Селектор першої дитини — це селектор, який вибирає перший
+{{!-- тег, якщо він є першою дитиною всередині батьківського тегу --}}Селектор останньої дитини — це селектор, який
+вибирає останній
+тег, якщо він є останньою дитиною всередині батьківського тегу* :last-child --}}
+<div class="card p-5 card-dark">
+    <ul>
+        <li class="item">First</li>
+        <li class="item">Second</li>
+        <li class="item">Third</li>
+        <li class="item">Four</li>
+    </ul>
+</div>
+{{!-- Селектор одиничної дитини — це селектор, який вибирає тег,
+якщо він є єдиною дитиною всередині батьківського тегу, і після
+нього більше не існує інших дитячих тегів --}}
+<div class="card p-5 card-dark">
+    <ul>
+        <li class="item">First</li>
+    </ul>
+</div>
+
+{{!-- Селектор першого типу — це селектор, який вибирає перший
+елемент по заданому тегу серед своїх сусідських тегів --}}
+{{!-- Селектор останнього типу — це селектор, який вибирає останній
+елемент по заданому тегу серед своїх сусідських тегів :last-of-type --}}
+<div class="card p-5 card-dark">
+    <p class="item">First</p>
+    <b class="item">Second</b>
+    <div class="item">Third</div>
+    <b class="item">Second</b>
+    <b class="item">Second</b>
+    <strong class="item">Second</strong>
+    <article class="item">Four</article>
+    <p class="item">First</p>
+    <p></p>
+    <b class="item">Second</b>
+    <div class="row">Third</div>
+    <article class="item">Four</article>
+</div>

@@ -1,0 +1,44 @@
+.card > p {
+  color: red;
+  text-align: right;
+  letter-spacing: 7px;
+}
+p:focus,
+p:active {
+  -webkit-text-fill-color: aqua;
+  -webkit-text-stroke: 2px blueviolet;
+}
+p:hover {
+  direction: rtl;
+}
+#test {
+  color: initial;
+  -webkit-text-fill-color: initial;
+  -webkit-text-stroke: initial;
+  writing-mode: vertical-rl;
+  letter-spacing: 0.8em;
+}
+span:hover {
+  text-transform: capitalize;
+  text-decoration: underline dotted red;
+}
+span {
+  text-decoration-line: line-through;
+  text-decoration: double;
+  text-decoration-color: blueviolet;
+  text-decoration: line-through double rgb(4, 0, 255);
+}
+pre {
+  tab-size: 3;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+span {
+  font-size: larger;
+  font-weight: 600;
+  font-display: swap;
+}
