@@ -58,6 +58,7 @@
 .footer {
   padding: 24px 0;
   border-top: 1px solid #dee2e6;
+  background-image: url('/images/test.png');
 }
 
 .footer-copyright {
@@ -174,4 +175,23 @@ p {
   overflow-x: scroll;
   overflow-y: hidden;
   text-overflow: ellipsis;
+}
+
+/* .page {
+  background: linear-gradient(
+    57.21deg,
+    #263086 22.5%,
+    rgba(135, 23, 30, 0.6) 75.39%
+  );
+} */
+.page {
+  background-image: radial-gradient(
+    82.79% 46.91% at 44.7% 78.43%,
+    #b8bbd7 22.55%,
+    rgba(234, 225, 226, 0.99) 77.12%
+  );
+}
+.footer {
+  background-image: url('/images/create-vignette-with-layer-mask_step1.jpg');
+  background-attachment: fixed;
 }
