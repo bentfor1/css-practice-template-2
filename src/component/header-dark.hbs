@@ -1,0 +1,19 @@
+<header>
+	<div class="header_dark">
+		<div class="header_dark_nav">
+			<div class="header_dark_nav_logo">
+				<button class="header_dark_nav_logo_text">{{header.brandName}}</button>
+			</div>
+			<div class="header_dark_nav_links">
+				{{#each header.links}}
+				<a href="{{url}}" class="link_item">{{text}}</a>
+				{{/each}}
+			</div>
+		</div>
+		<div class="header_dark_nav_bottom">
+			<span class="header_dark_nav_bottom_ad">Ad</span>
+			<a href="{{header.ad.url}}" class="link_item">{{header.ad.text}}</a>
+			<span class="users">Users online: {{header.userOnline}}</span>
+		</div>
+	</div>
+</header>
